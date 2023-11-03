@@ -1,4 +1,5 @@
 title: wheres my item
+description: [We are developing a website for listing lost and found items to help automate the process of finding the owner of a lost item]
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
