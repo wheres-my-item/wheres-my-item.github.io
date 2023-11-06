@@ -37,6 +37,16 @@ Provide a site for students to report that they’ve lost something, or report a
 
 ## Walkthrough
 
+#### User login and signup page
+
+A simple mock-up of the login and singup page:
+
+<div class="center"><img src="doc/sign-in-mockup.png" alt="user page" width="950px"></div>
+
+<div class="center"><img src="doc/sign-up-mockup.png" alt="user page" width="950px"></div>
+
+This allows users of the website to create accounts and access user-to-user specific information.
+
 #### User (after Login) page, non-Admin user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
@@ -44,6 +54,8 @@ Once you log in (either to an existing account or by creating a new one), the na
 <div class="center"><img src="doc/user-page.jpeg" alt="user page" width="950px"></div>
 
 You can now access the lost item submission form, the lost item list, and the claim form.
+
+
 
 
 
