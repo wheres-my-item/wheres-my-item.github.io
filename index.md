@@ -34,7 +34,7 @@ Provide a site for students to report that they’ve lost something, or report a
 
 ## Team
 
-Take a look at our [team contract](./https://docs.google.com/document/d/15k7QCJ0w4ZB97Gaa42dbeFSXAgJNJC7keOgySTGZSys/edit?usp=sharing)
+Take a look at our <a href="https://docs.google.com/document/d/15k7QCJ0w4ZB97Gaa42dbeFSXAgJNJC7keOgySTGZSys/edit?usp=sharing">team contract</a>
 
 ## Walkthrough
 
