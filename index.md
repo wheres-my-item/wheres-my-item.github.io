@@ -50,6 +50,14 @@ Provide a site for students to report that they’ve lost something, or report a
 
 ## Walkthrough
 
+#### Landing Page
+
+A mockup of the landing page for users accessing the site without an account:
+
+<div class="center"><img src="doc/landing-page-mockup.png" alt="landing page" width="950px"></div>
+
+Provides information regarding the functionality of the site to the user.
+
 #### User login and signup page
 
 A simple mock-up of the login and singup page:
