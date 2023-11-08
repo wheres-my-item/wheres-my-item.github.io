@@ -52,6 +52,14 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 You can now access the lost item list and the claim form.
 
+#### Found Items page
+
+Following the navbar link to Found Items will bring you to the page listing all the items that have been found:
+
+<div class="center"><img src="doc/found-items-mockup.png" width="950px"></div>
+
+The items are listed in cards, with images and details. There is also an option to filter (e.g. by category) and to sort (e.g. by date posted). At the bottom of each item card is a link to claim the item. This link leads to the claim form.
+
 
 ## Team
 
