@@ -10,6 +10,22 @@
 
 ## Overview
 
+'Where's My Item?' is a site that's designed to allow UH Manoa students to find and report various items that they may have lost on campus.
+
+The site in itself uses:
+- Meteor for Javascript-based implementation of client and server code
+- React for component-based UI implementation and routing
+- React Bootstrap CSS Framework for UI design
+
+The site contains:
+- A Landing Page that serves as a home page for users, which provides a description of the functionality of the site to them
+- A page that contains a 'Lost Item' form, where users can submit descriptions of items that they've found
+  -  This adds to a collection that consists of lost items, including fields with pertinent details such as where it was found, contact details, an image of it, etc.
+- A 'Lost Items' database page that contains cards of all the lost items that have been submitted to the database, which users can browse to see if the item they've lost is already there
+- A Log-In and Sign-Up page for users to login or create accounts, which is necessary before they can submit items
+  - This adds to a collection that consists of user accounts, which have fields for the username, password, whether it has admin priveleges, etc. 
+- An admin page where accounts with admin access can view all items that have been submitted and manage them
+
 ## Goals
 
 Provide a site for students to report that they’ve lost something, or report an item that they’ve found.
