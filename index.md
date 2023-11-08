@@ -60,6 +60,14 @@ Following the navbar link to Found Items will bring you to the page listing all 
 
 The items are listed in cards, with images and details. There is also an option to filter (e.g. by category) and to sort (e.g. by date posted). At the bottom of each item card is a link to claim the item. This link leads to the claim form.
 
+#### Claim Form page
+
+The claim form page can be accessed by clicking the link at the bottom of each item card on the Found Items page.
+
+<div class="center"><img src="doc/claim-page-mockup.png" width="950px"></div>
+
+The claim form page includes the card of the item being claimed. It also has a form for the user to fill in, with their contact information and details about the item. The user can also add a comment. There is also an option to view pending claims.
+
 
 ## Team
 
