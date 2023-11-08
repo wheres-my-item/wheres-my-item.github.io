@@ -62,11 +62,11 @@ Provides information regarding the functionality of the site to the user.
 
 A simple mock-up of the login and singup page:
 
-<div class="center"><img src="doc/sign-in-mockup.png" alt="user page" width="950px"></div>
+<div class="center"><img src="doc/sign-in-page-mockup.png" alt="user page" width="950px"></div>
 
-<div class="center"><img src="doc/sign-up-mockup.png" alt="user page" width="950px"></div>
+<div class="center"><img src="doc/sign-up-page-mockup.png" alt="user page" width="950px"></div>
 
-This allows users of the website to create accounts and access user-to-user specific information.
+This allows users of the website to create accounts and access user specific information.
 
 #### User (after Login) page, non-Admin user
 
@@ -118,7 +118,7 @@ These pages allow the admin to create/edit an item's image, name, location found
 - Sean Umeda       | sumeda21@hawaii.edu  | [GitHub Profile](https://github.com/Sumeda21)
 - Tiffany Ngo      | ngotiff@hawaii.edu   | [GitHub Profile](https://github.com/tiffany-ngo)
 
-Take a look at our <a href="https://docs.google.com/document/d/15k7QCJ0w4ZB97Gaa42dbeFSXAgJNJC7keOgySTGZSys/edit?usp=sharing">team contract</a>
+Take a look at our <a href="https://docs.google.com/document/d/15k7QCJ0w4ZB97Gaa42dbeFSXAgJNJC7keOgySTGZSys/edit?usp=sharing">team contract</a>.
 
 
 
