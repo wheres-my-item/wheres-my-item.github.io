@@ -101,6 +101,14 @@ The admin page can be accessed after logging in as an admin user, using the navb
 The page allow you to view all lost items, along with their details. There are two rows of item cards, those with claims and those without claims. Each row is contained in a collapsable container to reduce screen clutter if there are many items.
 
 
+#### Admin Add/Edit page
+
+The add and edit item pages can be accessed from the admin page. There is a single button to add an item. Each item card has an edit link.
+
+<div class="center"><img src="doc/admin-add-and-edit-item-page.png" width="950px"></div>
+
+These pages allow the admin to create/edit an item's image, name, location found, and description. The edit page has an aditional button to delete the item in the case that it was mistakenly added or has been returned to the owner.
+
 ## Team
 
 #### Project Team Member:
