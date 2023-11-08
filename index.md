@@ -92,6 +92,14 @@ The claim form page can be accessed by clicking the link at the bottom of each i
 
 The claim form page includes the card of the item being claimed. It also has a form for the user to fill in, with their contact information and details about the item. The user can also add a comment. There is also an option to view pending claims.
 
+#### Admin page
+
+The admin page can be accessed after logging in as an admin user, using the navbar.
+
+<div class="center"><img src="doc/admin-page-mockup.png" width="950px"></div>
+
+The page allow you to view all lost items, along with their details. There are two rows of item cards, those with claims and those without claims. Each row is contained in a collapsable container to reduce screen clutter if there are many items.
+
 
 ## Team
 
