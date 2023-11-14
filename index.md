@@ -5,6 +5,7 @@
 * [Overview](#overview)
 * [Goals](#goals)
 * [System](#system)
+* [Deployment](#deployment)
 * [User Guide](#user-guide)
 * [Development History](#development-history)
 * [Team](#team)
@@ -48,6 +49,12 @@ Provide a site for students to report that they’ve lost something, or report a
 * Page where you can access all items lost (so you can see if something you’ve lost is there already)
 * Edit items
 * Option to delete items that you’ve reported/found if returned to owner
+
+## Deployment
+
+We used Digital ocean to deploy our web application.
+
+You can view our deployed application [here](134.209.116.153)!
 
 ## Walkthrough
 
