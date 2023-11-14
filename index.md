@@ -6,6 +6,7 @@
 * [Goals](#goals)
 * [System](#system)
 * [User Guide](#user-guide)
+* [Development History](#development-history)
 * [Team](#team)
 
 ## Overview
@@ -108,6 +109,36 @@ The add and edit item pages can be accessed from the admin page. There is a sing
 <div class="center"><img src="doc/admin-add-and-edit-item-page.png" width="950px"></div>
 
 These pages allow the admin to create/edit an item's image, name, location found, and description. The edit page has an aditional button to delete the item in the case that it was mistakenly added or has been returned to the owner.
+
+## Development History
+
+The development process for our website, Where's My Item, conformed to Issue Driven Project Management practices. In short:
+
+-Development consists of a sequence of Milestones.
+-Each Milestone is specified as a set of tasks.
+-Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+-Tasks should typically consist of work that can be completed in 2-4 days.
+-The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
+-When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+-The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
+The following sections document the development history of BowFolios.
+
+### Milestone 1 : Mockups and Initial Page Deployment
+
+Our goal for milestone 1 was to create our home page, with mockups of what our final website should look like, and an initial deployment of our website with a landing page.
+
+Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/orgs/wheres-my-item/projects/1):
+
+![](doc/project-board-1.png)
+
+### Milestone 2 : Functionality and Quality
+
+Our goal for milestone 2 was to work on the functionality and quality of our website, specifically making sure each of our pages work as intended.
+
+Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/orgs/wheres-my-item/projects/3):
+
+![](doc/project-board-2.png)
 
 ## Team
 
