@@ -54,7 +54,7 @@ Provide a site for students to report that they’ve lost something, or report a
 
 We used Digital ocean to deploy our web application.
 
-You can view our deployed application [here](134.209.116.153)!
+You can view our deployed application <a href="134.209.116.153">here</a>!
 
 ## Walkthrough
 
