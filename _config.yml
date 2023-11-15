@@ -1,6 +1,6 @@
 title: Where's My Item?
 logo: /assets/css/logo-color.png
-description: [We are developing a website for listing lost and found items to help automate the process of finding the owner of a lost item.]
+description: We are developing a website for listing lost and found items to help automate the process of finding the owner of a lost item.
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
