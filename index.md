@@ -80,7 +80,7 @@ This allows users of the website to create accounts and access user specific inf
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-<div class="center"><img src="doc/user-page.jpeg" alt="user page" width="950px"></div>
+<div class="center"><img src="doc/user-page.png" alt="user page" width="950px"></div>
 
 You can now access the lost item list and the claim form.
 
