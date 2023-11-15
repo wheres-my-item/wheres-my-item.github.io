@@ -60,11 +60,11 @@ You can view our deployed application <a href="http://134.209.116.153">here</a>!
 
 #### Landing Page
 
-A mockup of the landing page for users accessing the site without an account:
+Landing page for users accessing the site without an account:
 
 <div class="center"><img src="doc/landing-page-mockup.png" alt="landing page" width="950px"></div>
 
-Provides information regarding the functionality of the site to the user.
+Provides information regarding the functionality of the site to the user, and prompts them to login/sign up.
 
 #### User login and signup page
 
