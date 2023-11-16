@@ -96,7 +96,7 @@ The items are listed in cards, with images and details. There is also an option 
 
 The claim form page can be accessed by clicking the link at the bottom of each item card on the Found Items page.
 
-<div class="center"><img src="doc/claim-page-mockup.png" width="950px"></div>
+<div class="center"><img src="doc/claim-form-page.png" width="950px"></div>
 
 The claim form page includes the card of the item being claimed. It also has a form for the user to fill in, with their contact information and details about the item. The user can also add a comment. There is also an option to view pending claims.
 
