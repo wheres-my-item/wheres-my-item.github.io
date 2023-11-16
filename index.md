@@ -145,7 +145,7 @@ Our goal for milestone 2 was to work on the functionality and quality of our web
 
 Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/orgs/wheres-my-item/projects/3):
 
-![](doc/project-board-2.png)
+![](doc/project-board-2-update.png)
 
 ## Team
 
