@@ -22,10 +22,10 @@ The site in itself uses:
 The site contains:
 - A Landing Page that serves as a home page for users, which provides a description of the functionality of the site to them
 - A page that contains a 'Lost Item' form, where users can submit descriptions of items that they've found
-  -  This adds to a collection that consists of lost items, including fields with pertinent details such as where it was found, contact details, an image of it, etc.
+    -  This adds to a collection that consists of lost items, including fields with pertinent details such as where it was found, contact details, an image of it, etc.
 - A 'Lost Items' database page that contains cards of all the lost items that have been submitted to the database, which users can browse to see if the item they've lost is already there
 - A Log-In and Sign-Up page for users to login or create accounts, which is necessary before they can submit items
-  - This adds to a collection that consists of user accounts, which have fields for the username, password, whether it has admin priveleges, etc. 
+    - This adds to a collection that consists of user accounts, which have fields for the username, password, whether it has admin priveleges, etc.
 - An admin page where accounts with admin access can view all items that have been submitted and manage them
 
 ## Goals
@@ -116,6 +116,101 @@ The add and edit item pages can be accessed from the admin page. There is a sing
 <div class="center"><img src="doc/admin-add-item-page-mockup.png" width="950px"></div>
 
 These pages allow the admin to create/edit an item's image, name, location found, and description. The edit page has an aditional button to delete the item in the case that it was mistakenly added or has been returned to the owner.
+
+
+## Developer Guide
+
+This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+
+
+### Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, visit the [our application github page](https://github.com/wheres-my-item/project), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+
+Third, cd into the project/app directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+### Application Design
+
+This project is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design.
+
+
+### Quality Assurance
+
+#### ESLint
+
+BowFolios includes a .eslintrc file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+meteor npm run lint
+```
+
+Here is sample output indicating that no ESLint errors were detected:
+
+```
+$ meteor npm run lint
+
+> project@ lint /Users/philipjohnson/github/wheres-my-item/project/app
+> eslint --quiet --ext .jsx --ext .js ./imports ./tests
+
+$
+```
+
+ESLint should run without generating any errors.
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
+
+#### End to End Testing
+
+Wheres-my-item uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
+
+The wheres-my-item end-to-end test code employs the page object model design pattern.  In the [project tests/ directory](https://github.com/wheres-my-item/project/tree/main/app/tests), the file [tests.testcafe.js](https://github.com/wheres-my-item/project/blob/main/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
+
+To run the end-to-end tests in development mode, you must first start up a wheres-my-item instance by invoking `meteor npm run start` in one console window.
+
+Then, in another console window, start up the end-to-end tests with:
+
+```
+meteor npm run testcafe
+```
+
+You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
+
+```
+PS C:\Users\name\github\project\app> meteor npm run testcafe       
+
+> meteor-application-template-react@ testcafe C:\Users\name\github\project\app
+> testcafe chrome tests/*.testcafe.js
+
+ Running tests in:
+ - Chrome 119.0.0.0 / Windows 11
+
+ meteor-application-template-react localhost test with default db
+ √ Test that landing page shows up
+ √ Test that signin and signout work
+
+
+ 2 passed (17s)
+```
+
+All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
+
+The only impact of quarantine mode should be that the first test is marked as "unstable".
+
+
 
 ## Development History
 
