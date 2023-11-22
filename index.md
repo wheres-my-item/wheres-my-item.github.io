@@ -152,7 +152,7 @@ This project is based upon [meteor-application-template-react](https://ics-softw
 
 #### ESLint
 
-BowFolios includes a .eslintrc file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+Where-my-item includes a .eslintrc file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
