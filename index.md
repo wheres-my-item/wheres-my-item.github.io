@@ -6,8 +6,8 @@
 * [Overview](#overview)
 * [Goals](#goals)
 * [System](#system)
-* [Deployment](#deployment)
 * [User Guide](#user-guide)
+* [Deployment](#deployment)
 * [Development History](#development-history)
 * [Team](#team)
 
@@ -35,6 +35,8 @@ Provide a site for students to report that they’ve lost something, or report a
 
 ## System
 
+* Landing Page for first time users
+* Page where you can access all items lost
 * Page where you can report a missing item
 * Picture (if possible)
 * Item description
@@ -55,9 +57,9 @@ Provide a site for students to report that they’ve lost something, or report a
 
 We used Digital ocean to deploy our web application.
 
-You can view our deployed application <a href="http://161.35.104.200">here</a>!
+You can view our deployed application <a href="https://uh-manoa-lost-and-found.online/">here</a>!
 
-## Walkthrough
+## User Guide
 
 #### Landing Page
 
@@ -69,7 +71,7 @@ Provides information regarding the functionality of the site to the user, and pr
 
 #### User login and signup page
 
-A simple mock-up of the login and singup page:
+A simple login and singup page:
 
 <div class="center"><img src="doc/sign-in-page-mockup.png" alt="user page" width="950px"></div>
 
