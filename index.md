@@ -36,22 +36,17 @@ Provide a site for students to report that they’ve lost something, or report a
 ## System
 
 * Landing Page for first time users
-* Page where you can access all items lost
-* Page where you can report a missing item
-* Picture (if possible)
-* Item description
-* Name
-* Contact information
-* Page where you can report you’ve found a lost item
-* Picture
-* Item description
-* Name
-* Contact information
-* Where it was found
-* Login page for UH Manoa student accounts
-* Page where you can access all items lost (so you can see if something you’ve lost is there already)
-* Edit items
-* Option to delete items that you’ve reported/found if returned to owner
+* Sign in and Sign up page
+* Home page after Sign in
+* Page where you can access all items lost with:
+    * Picture
+    * Item description
+    * Name
+    * Where it was found
+* Page where you can claim items
+* Admin page
+* Edit items page for Admins
+* Option to delete items that you’ve reported/found if returned to owner for Admins
 
 ## Deployment
 
@@ -227,23 +222,31 @@ The development process for our website, Where's My Item, conformed to Issue Dri
 * When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
 * The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
-The following sections document the development history of BowFolios.
+The following sections document the development history of our project.
 
 ### Milestone 1 : Mockups and Initial Page Deployment
 
-Our goal for milestone 1 was to create our home page, with mockups of what our final website should look like, and an initial deployment of our website with a landing page.
+Our goal for Milestone 1 was to create our home page, with mockups of what our final website should look like, and an initial deployment of our website with a landing page.
 
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/orgs/wheres-my-item/projects/1):
+Milestone 1 was managed with [Our GitHub Project Board M1](https://github.com/orgs/wheres-my-item/projects/1):
 
 ![](doc/project-board-1.png)
 
 ### Milestone 2 : Functionality and Quality
 
-Our goal for milestone 2 was to work on the functionality and quality of our website, specifically making sure each of our pages work as intended.
+Our goal for Milestone 2 was to work on the functionality and quality of our website, specifically making sure each of our pages work as intended.
 
-Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/orgs/wheres-my-item/projects/3):
+Milestone 2 was managed with [Our GitHub Project Board M2](https://github.com/orgs/wheres-my-item/projects/3):
 
 ![](doc/project-board-2-update.png)
+
+### Milestone 3 : Functionality and Design
+
+Our goal for Milestone 3 was to further work on the functionality of the website, finishing any unfinished pages from the Milestone 2. In addition to this, we focused on the design and stylization elements of our site. We also asked for community feedback to further improve our project.
+
+Milestone 3 was managed with [Our GitHub Project Board M4](https://github.com/orgs/wheres-my-item/projects/4/views/1):
+
+![](doc/project-board-3.png)
 
 ## Team
 
