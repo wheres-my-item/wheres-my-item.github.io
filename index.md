@@ -131,7 +131,7 @@ After looking at all the feedback received, it seems that there was somewhat of 
 
 As for other parts of the site, there seemed to be a consensus that although the site looked nice to them, it did seem a bit obvious that students had made the site, i.e. there was an "amateur" feel to it. 
 
-Despite this, most said that it didn't feel too crowded/noisy, and that information was displayed in a balanced manner. One exception was the "Found Items" page, as someone said that it would've looked nicer if all the lost items weren't displayed on the same page, and was instead spread out across several pages, with a max amount displayed on a single page and a way to hit "next page" and go to the next 9 or so items in the database.
+Despite this, most said that it didn't feel too crowded/noisy, and that information was displayed in a balanced manner. One exception was the "Found Items" page, as someone said that it would've looked nicer if all the lost items weren't displayed on the same page, and was instead spread out across several pages, with a max amount displayed on a single page and a way to hit "next page" and go to the next 9 or so items in the database. Another said that the size of the cards for the lost items should be smaller, since they didn't think it was necessary for one item to take up so much space on the page.
 
 ### Functionality/Ease of Use
 
