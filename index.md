@@ -122,12 +122,43 @@ These pages allow the admin to create/edit an item's image, name, location found
 
 ## Community Feedback
 
+We asked five different students from UH Manoa outside of our ICS 314 class to provide feedback for the site. Critique was received and split into four separate parts for better analysis, which include the aesthetics of the site, its functionality/ease of use, how well it achieves its purpose, and possible improvements to it.
+
+### Aesthetics
+
+After looking at all the feedback received, it seems that there was somewhat of a split between the students we asked as to whether the site having a more dark aesthetic was good or bad. Most said that the site being in "dark mode' was better on their eyes, and some thought that the site had an almost "cozy" feel (thought I think that was mostly because of the picture of a campus in the middle of fall). Others thought that the site having primarily darker colors made it look unprofessional. 
+
+As for other parts of the site, there seemed to be a consensus that although the site looked nice to them, it did seem a bit obvious that students had made the site, i.e. there was an "amateur" feel to it. 
+
+Despite this, most said that it didn't feel too crowded/noisy, and that information was displayed in a balanced manner. One exception was the "Found Items" page, as someone said that it would've looked nicer if all the lost items weren't displayed on the same page, and was instead spread out across several pages, with a max amount displayed on a single page and a way to hit "next page" and go to the next 9 or so items in the database.
+
+### Functionality/Ease of Use
+
+Most said that the site was easy to use and navigate, however one was confused why the "Home" page was labeled that and not something like "FAQ" or "About", and as mentioned above, navigating the "Found Items" page would be easier if there was a max limit to how many items appeared on the page.
+
+There also seemed to be some confusion on some of the mechanics of site, such as what the difference between claimed and unclaimed items were on the "Admin" page, although that was quickly cleared up with an explanation. Still, it's important to note it wasn't immediately obvious to them. 
+
+Another said that the "Sign-out" option would work better if it immediately loaded the landing page after a successful sign-out instead of loading a page with a "You are signed out" message, as most modern sites do. They said that it made it a bit clunky to use.
+
+Other than that, confusion was minimal and most said everything generally worked as expected.
+
+### Purpose
+
+Feedback was received throughout the week leading up to the due date of the project, and so not everything was implemented yet. As such, it was necessary to explain the mechanics of how the site would notify the user that their claim was verified and to go pick up their item from the Lost Item office, as well as how the admin verifies and deletes the claims to clarify how the site would achieve its goal. 
+
+After the explanation, most said that the site worked at the very least on a basic level. Users could see what the Lost Item office had in store, file a claim form, and get notification when an admin got back to them and verified their claim. That's basically all it had to do.
+
+### Improvements
+
+Most suggestions for how to improve the site were vague, and suggested improving how professional the site looked and adding tweaks to make the site feel better to use.
+
+Concrete suggestions were mentioned above, and include signing out immediately loading the landing page, there being a max amount of items listed on a single page in the "Found Items" page so they wouldn't have to keep scrolling and it wouldn't be so easy to lose their place on the page, and another said to include some sort of transition graphics to make everything feel smoother when navigating through the site.
+
 
 
 ## Developer Guide
 
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
-
 
 ### Installation
 
