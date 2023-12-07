@@ -1,5 +1,4 @@
 # Where's My Item?
-![ci-badge](https://github.com/wheres-my-item/project/workflows/wheres-my-item/badge.svg)
 
 ## Table of contents
 
