@@ -13,7 +13,7 @@
 
 ## Overview
 
-'Where's My Item?' is a site designed to allow the UH Manoa Lost & Found center to list the many lost items that have been found on campus. Students who have lost something can search the site to look to see if they have something that belongs to them, and file a claim for that item if so. Admin can then verify their claim's authenticity using the information provided to them in a claim form.
+'Where's My Item?' is a site designed to allow the UH Manoa Lost Item office to list the many lost items that have been found on campus. Students who have lost something can search the site to look to see if they have something that belongs to them, and file a claim for that item if so. Admin can then verify their claim's authenticity using the information provided to them in a claim form.
 
 The site in itself uses:
 - Meteor for Javascript-based implementation of client and server code
@@ -35,7 +35,7 @@ The site contains:
 
 ## Goals
 
-To provide a site for the UH Manoa Lost & Found center to list their collection of lost items that have been turned into them, and for students to view said collection to determine if something they've lost is there, and if so, to submit a claim to get back said item.
+To provide a site for the UH Manoa Lost Item office to list their collection of lost items that have been turned into them, and for students to view said collection to determine if something they've lost is there, and if so, to submit a claim to get back said item.
 
 ## System
 
