@@ -4,8 +4,11 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: lightblue;
+  //background-color: lightblue;
+  background: url("background.png") repeat;
   font-family: sans-serif;
+
+  color: #198754
 }
 
 p {
@@ -14,4 +17,12 @@ p {
 
 li {
   font-size: 15px;
+}
+
+a {
+  color: #668f80
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #126940
 }
