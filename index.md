@@ -39,18 +39,23 @@ To provide a site for the UH Manoa Lost Item office to list their collection of 
 
 ## System
 
-* Landing Page for first time users
-* Sign in and Sign up page
-* Home page after Sign in
-* Page where you can access all items lost with:
-    * Picture
-    * Item description
+* Landing page for first time users
+* Sign-in and Sign-up page, which adds to the users collection
+* Home page after sign-in
+* 'Found Items' page where you can access all items in the lost items collection, with details such as:
+    * A picture
     * Name
-    * Where it was found
-* Page where you can claim items
+    * Type of item
+    * Color
+    * Date lost
+    * Item description
+* "Claim Item" page where you can claim items, which submits that claim to a claims collection
 * Admin page
-* Edit items page for Admins
-* Option to delete items that you’ve reported/found if returned to owner for Admins
+    * Claimed items and unclaimed items in different sections
+        * Option for admin to look at claims for an item
+    * Edit items page for admins
+    * Option to delete items whose claim have been verified
+    * Add Item form to add to the lost items collection
 
 ## Deployment
 
