@@ -2,13 +2,16 @@
 ---
 
 @import "{{ site.theme }}";
+
 body {
   background-color: lightblue;
   font-family: sans-serif;
 }
+
 p {
   font-size: 15px;
 }
+
 li {
   font-size: 15px;
 }

@@ -13,7 +13,7 @@
 
 ## Overview
 
-'Where's My Item?' is a site that's designed to allow UH Manoa students to find and report various items that they may have lost on campus.
+'Where's My Item?' is a site designed to allow the UH Manoa Lost & Found center to list the many lost items that have been found on campus. Students who have lost something can search the site to look to see if they have something that belongs to them, and file a claim for that item if so. Admin can then verify their claim's authenticity using the information provided to them in a claim form.
 
 The site in itself uses:
 - Meteor for Javascript-based implementation of client and server code
@@ -21,17 +21,21 @@ The site in itself uses:
 - React Bootstrap CSS Framework for UI design
 
 The site contains:
-- A Landing Page that serves as a home page for users, which provides a description of the functionality of the site to them
-- A page that contains a 'Lost Item' form, where users can submit descriptions of items that they've found
-    -  This adds to a collection that consists of lost items, including fields with pertinent details such as where it was found, contact details, an image of it, etc.
-- A 'Lost Items' database page that contains cards of all the lost items that have been submitted to the database, which users can browse to see if the item they've lost is already there
-- A Log-In and Sign-Up page for users to login or create accounts, which is necessary before they can submit items
+- A landing page that informs new users of the purpose of the site, and prompts them to log-in or sign-up to browse the lost items database.
+- A "Found Items" page that shows all the lost items in the database, which users can browse for their own lost item.
+  - Each item has pertinent descriptions, such as when it was found, what type of item it is, color, and a basic description.
+  - Each item has the option to "Claim This Item". Upon selection, it will take them to a "Claim Item" form where they can submit information that they can use to verify their ownership of the item and their contact information.
+- An 'Admin' page that is only available to accounts with admin privileges. Here, there are two sections, "Claimed Items" and "Unclaimed Items". 
+  - "Claimed Items" contains items that users have submitted a claim form for, where they can go to verify their identity and decide whether to accept the claim.
+  - "Unclaimed Items" contains all the items in the database with no claims submitted for it yet.
+  - All items have an "Edit" button that can be used to edit the item in the database.
+  - Admins also have the option called "Add Item", where they can use an "Add Stuff" form to add a new item to the database.
+- A Log-In and Sign-Up page for users to login or create accounts, which is necessary before they can submit items.
     - This adds to a collection that consists of user accounts, which have fields for the username, password, whether it has admin priveleges, etc.
-- An admin page where accounts with admin access can view all items that have been submitted and manage them
 
 ## Goals
 
-Provide a site for students to report that they’ve lost something, or report an item that they’ve found.
+To provide a site for the UH Manoa Lost & Found center to list their collection of lost items that have been turned into them, and for students to view said collection to determine if something they've lost is there, and if so, to submit a claim to get back said item.
 
 ## System
 
