@@ -7,8 +7,7 @@ body {
   //background-color: lightblue;
   background: url("background.png") repeat;
   font-family: sans-serif;
-
-  color: #668f80
+  color: white;
 }
 
 p {
@@ -20,7 +19,11 @@ li {
 }
 
 a {
-  color: #198754
+  color: #668f80;
+}
+
+a:hover, a:focus {
+  color: #198754;
 }
 
 h1, h2, h3, h4, h5, h6 {
