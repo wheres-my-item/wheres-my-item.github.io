@@ -153,6 +153,15 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 This project is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design.
 
+### Data Model
+
+Our website contains collections for the user accounts, with fields such as the name of the email, password, and role, the lost items, with fields for the description of the item, and for the claims, with fields describing who is attempting to claim the lost item and proof that they owned it. The claim form links back to the item that the user is attempting to claim.
+
+### Initialization
+
+The config directory is intended to hold settings files. The repository contains one file: config/settings.development.json.
+
+This file contains default definitions for the user accounts, the lost items in the database, and the user claims for a particular item, and the relationships between them.
 
 ### Quality Assurance
 
@@ -216,7 +225,17 @@ All the tests pass, but the first test is marked as "unstable". At the time of w
 
 The only impact of quarantine mode should be that the first test is marked as "unstable".
 
+### From Mockup to Production
 
+One additional security-related change that was implemented was the use of https so that the information that flows between the server and the browser is encrypted, which includes confidential information such as logins and passwords.
+
+### Continuous Integration
+
+![ci-badge](https://github.com/wheres-my-item/project/workflows/wheres-my-item/badge.svg)
+
+This site uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at https://github.com/wheres-my-item/project/actions.
+
+The workflow definition file is located at .github/workflows/ci.yml.
 
 ## Development History
 
