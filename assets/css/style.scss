@@ -27,5 +27,13 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #21b047
+  color: #21b047;
+}
+
+code, pre {
+  color: #42db6b;
+}
+
+.highlight {
+  background-color: #2e2e2e;
 }
