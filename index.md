@@ -9,6 +9,7 @@
 * [User Guide](#user-guide)
 * [Deployment](#deployment)
 * [Community Feedback](#community-feedback)
+* [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Team](#team)
 
