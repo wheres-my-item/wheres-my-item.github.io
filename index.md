@@ -8,6 +8,7 @@
 * [System](#system)
 * [User Guide](#user-guide)
 * [Deployment](#deployment)
+* [Community Feedback](#community-feedback)
 * [Development History](#development-history)
 * [Team](#team)
 
@@ -118,6 +119,9 @@ The add and edit item pages can be accessed from the admin page. There is a sing
 <div class="center"><img src="doc/admin-add-item-page-mockup.png" width="950px"></div>
 
 These pages allow the admin to create/edit an item's image, name, location found, and description. The edit page has an aditional button to delete the item in the case that it was mistakenly added or has been returned to the owner.
+
+## Community Feedback
+
 
 
 ## Developer Guide
