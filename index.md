@@ -23,17 +23,17 @@ The site in itself uses:
 - React Bootstrap CSS Framework for UI design
 
 The site contains:
-- A landing page that informs new users of the purpose of the site, and prompts them to log-in or sign-up to browse the lost items database.
-- A "Found Items" page that shows all the lost items in the database, which users can browse for their own lost item.
-  - Each item has pertinent descriptions, such as when it was found, what type of item it is, color, and a basic description.
-  - Each item has the option to "Claim This Item". Upon selection, it will take them to a "Claim Item" form where they can submit information that they can use to verify their ownership of the item and their contact information.
-- An 'Admin' page that is only available to accounts with admin privileges. Here, there are two sections, "Claimed Items" and "Unclaimed Items". 
-  - "Claimed Items" contains items that users have submitted a claim form for, where they can go to verify their identity and decide whether to accept the claim.
-  - "Unclaimed Items" contains all the items in the database with no claims submitted for it yet.
-  - All items have an "Edit" button that can be used to edit the item in the database.
-  - Admins also have the option called "Add Item", where they can use an "Add Stuff" form to add a new item to the database.
-- A Log-In and Sign-Up page for users to login or create accounts, which is necessary before they can submit items.
-    - This adds to a collection that consists of user accounts, which have fields for the username, password, whether it has admin priveleges, etc.
+* A landing page that informs new users of the purpose of the site, and prompts them to log-in or sign-up to browse the lost items database.
+* A "Found Items" page that shows all the lost items in the database, which users can browse for their own lost item.
+  * Each item has pertinent descriptions, such as when it was found, what type of item it is, color, and a basic description.
+  * Each item has the option to "Claim This Item". Upon selection, it will take them to a "Claim Item" form where they can submit information that they can use to verify their ownership of the item and their contact information.
+* An 'Admin' page that is only available to accounts with admin privileges. Here, there are two sections, "Claimed Items" and "Unclaimed Items".
+  * "Claimed Items" contains items that users have submitted a claim form for, where they can go to verify their identity and decide whether to accept the claim.
+  * "Unclaimed Items" contains all the items in the database with no claims submitted for it yet.
+  * All items have an "Edit" button that can be used to edit the item in the database.
+  * Admins also have the option called "Add Item", where they can use an "Add Stuff" form to add a new item to the database.
+* A Log-In and Sign-Up page for users to login or create accounts, which is necessary before they can submit items.
+  * This adds to a collection that consists of user accounts, which have fields for the username, password, whether it has admin priveleges, etc.
 
 ## Goals
 
@@ -45,19 +45,19 @@ To provide a site for the UH Manoa Lost Item office to list their collection of 
 * Sign-in and Sign-up page, which adds to the users collection
 * Home page after sign-in
 * 'Found Items' page where you can access all items in the lost items collection, with details such as:
-    * A picture
-    * Name
-    * Type of item
-    * Color
-    * Date lost
-    * Item description
+  * A picture
+  * Name
+  * Type of item
+  * Color
+  * Date lost
+  * Item description
 * "Claim Item" page where you can claim items, which submits that claim to a claims collection
 * Admin page
-    * Claimed items and unclaimed items in different sections
-        * Option for admin to look at claims for an item
-    * Edit items page for admins
-    * Option to delete items whose claim have been verified
-    * Add Item form to add to the lost items collection
+  * Claimed items and unclaimed items in different sections
+    * Option for admin to look at claims for an item
+  * Edit items page for admins
+  * Option to delete items whose claim have been verified
+  * Add Item form to add to the lost items collection
 
 ## Deployment
 
