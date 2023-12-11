@@ -247,7 +247,7 @@ Our goal for Milestone 2 was to work on the functionality and quality of our web
 
 Milestone 2 was managed with [Our GitHub Project Board M2](https://github.com/orgs/wheres-my-item/projects/3):
 
-![](doc/project-board-2-update.png)
+![](doc/project-board-2.png)
 
 ### Milestone 3 : Functionality and Design
 
