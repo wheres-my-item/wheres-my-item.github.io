@@ -69,7 +69,7 @@ You can view our deployed application <a href="https://uh-manoa-lost-and-found.o
 
 Landing page for users accessing the site without an account:
 
-<div class="center"><img src="doc/landing-page-mockup.png" alt="landing page" width="950px"></div>
+<div class="center"><img src="doc/landing-page.png" alt="landing page" width="950px"></div>
 
 Provides information regarding the functionality of the site to the user, and prompts them to login/sign up.
 
@@ -77,9 +77,9 @@ Provides information regarding the functionality of the site to the user, and pr
 
 A simple login and singup page:
 
-<div class="center"><img src="doc/sign-in-page-mockup.png" alt="user page" width="950px"></div>
+<div class="center"><img src="doc/sign-in-page.png" alt="user page" width="950px"></div>
 
-<div class="center"><img src="doc/sign-up-page-mockup.png" alt="user page" width="950px"></div>
+<div class="center"><img src="doc/sign-up-page.png" alt="user page" width="950px"></div>
 
 This allows users of the website to create accounts and access user specific information.
 
@@ -87,7 +87,7 @@ This allows users of the website to create accounts and access user specific inf
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-<div class="center"><img src="doc/user-page.png" alt="user page" width="950px"></div>
+<div class="center"><img src="doc/home-page.png" alt="user page" width="950px"></div>
 
 You can now access the lost item list and the claim form.
 
@@ -95,7 +95,7 @@ You can now access the lost item list and the claim form.
 
 Following the navbar link to Found Items will bring you to the page listing all the items that have been found:
 
-<div class="center"><img src="doc/found-items-mockup.png" width="950px"></div>
+<div class="center"><img src="doc/found-items-page.png" width="950px"></div>
 
 The items are listed in cards, with images and details. There is also an option to filter (e.g. by category) and to sort (e.g. by date posted). At the bottom of each item card is a link to claim the item. This link leads to the claim form.
 
@@ -111,7 +111,7 @@ The claim form page includes the card of the item being claimed. It also has a f
 
 The admin page can be accessed after logging in as an admin user, using the navbar.
 
-<div class="center"><img src="doc/admin-page-mockup.png" width="950px"></div>
+<div class="center"><img src="doc/admin-page.png" width="950px"></div>
 
 The page allow you to view all lost items, along with their details. There are two rows of item cards, those with claims and those without claims. Each row is contained in a collapsable container to reduce screen clutter if there are many items.
 
@@ -120,7 +120,7 @@ The page allow you to view all lost items, along with their details. There are t
 
 The add and edit item pages can be accessed from the admin page. There is a single button to add an item. Each item card has an edit link.
 
-<div class="center"><img src="doc/admin-add-item-page-mockup.png" width="950px"></div>
+<div class="center"><img src="doc/admin-add-item-page.png" width="950px"></div>
 
 These pages allow the admin to create/edit an item's image, name, location found, and description. The edit page has an aditional button to delete the item in the case that it was mistakenly added or has been returned to the owner.
 
