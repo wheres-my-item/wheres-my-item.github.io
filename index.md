@@ -37,26 +37,6 @@ The site contains:
 
 To provide a site for the UH Manoa Lost Item office to list their collection of lost items that have been turned into them, and for students to view said collection to determine if something they've lost is there, and if so, to submit a claim to get back said item.
 
-## System
-
-* Landing page for first time users
-* Sign-in and Sign-up page, which adds to the users collection
-* Home page after sign-in
-* 'Found Items' page where you can access all items in the lost items collection, with details such as:
-  * A picture
-  * Name
-  * Type of item
-  * Color
-  * Date lost
-  * Item description
-* "Claim Item" page where you can claim items, which submits that claim to a claims collection
-* Admin page
-  * Claimed items and unclaimed items in different sections
-    * Option for admin to look at claims for an item
-  * Edit items page for admins
-  * Option to delete items whose claim have been verified
-  * Add Item form to add to the lost items collection
-
 ## Deployment
 
 We used Digital ocean to deploy our web application.
