@@ -67,6 +67,37 @@ You can view our deployed application <a href="https://uh-manoa-lost-and-found.o
 
 ## User Guide
 
+This section provides information of interest to users of the system.
+
+<div class="center"><img src="doc/user-guide/landing.png" width="950px"></div>
+
+Accessing the site show a basic introduction to the site, and prompts the user to login or sign up. Click the Sign In button at the top right corner to log in, or sign up for a new account.
+
+<div class="center"><img src="doc/user-guide/signin.png" width="950px"></div>
+
+For both the sign in and sign up pages, enter your email and password, and click the appropriate button.
+
+<div class="center"><img src="doc/user-guide/home.png" width="950px"></div>
+
+After logging in, you will be taken to the home page. The navbar will change to include a link to the Found Items page, and a link to the Claim Form page. The navbar will also include a link to the Admin page if you are an admin user. Clicking your username followed by the Sign Out button will log you out and take you back to the landing page. Each category on the Home page has a dropdown menu that can be accessed by clicking the correlating arrow. Clicking the arrow again will close the dropdown menu.
+
+<div class="center"><img src="doc/user-guide/founditems.png" width="950px"></div>
+
+Clicking the Found Items link in the navbar will take you to the Found Items page. Here you can view all the items that have been found. You can filter the items by category or color by clicking on the Filter button. You can also sort items by date posted, in either ascending or descending order. Clicking the Claim This Item link at the bottom of each item card will take you to the Claim Form page.
+
+<div class="center"><img src="doc/user-guide/claimform.png" width="950px"></div>
+
+The Claim Form page will show the item you are attempting to claim. Fill out the form with your contact information and details about the item. The more detailed the form claim is, the more likely it is that you will be identified as the item's owner. Click the Submit button to submit your claim. You can also upload an image of the item if you have one:
+
+<div class="center"><img src="doc/user-guide/image.png" width="950px"></div>
+
+Clicking Choose File will open a file explorer where you can select an image to upload. Clicking the Upload button will upload the image to the database. The submit button will not work while the image is being uploaded. Once the image has been uploaded, the submit button will work again.
+
+<div class="center"><img src="doc/user-guide/admin.png" width="950px"></div>
+
+If you are an admin user, you will have access to the Admin page. Here you can view all the items in the database. Items with claims will be in the Claimed Items section, and items without claims will be in the Unclaimed Items section. Clicking the View Claims button will show the claims for that item. Clicking the Edit button will take you to the Edit Item page for that item. Clicking the Delete button will delete the item from the database. Clicking the Add Item button will take you to the Add Item page.
+
+
 #### Landing Page
 
 Landing page for users accessing the site without an account:
